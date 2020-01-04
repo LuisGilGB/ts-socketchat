@@ -1,0 +1,19 @@
+{
+  "name": "ts-socketchat",
+  "version": "1.0.0",
+  "description": "A chat app made with React, TypeScript and Socket.io for learning purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisGilGB/ts-socketchat.git"
+  },
+  "author": "Luis Gil Gutiérrez de la Barreda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuisGilGB/ts-socketchat/issues"
+  },
+  "homepage": "https://github.com/LuisGilGB/ts-socketchat#readme"
+}
