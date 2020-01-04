@@ -1,0 +1,15 @@
+{
+  "name": "ts-socketchat-server",
+  "version": "1.0.0",
+  "description": "Basic Express server for the chat app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Gil Gutiérrez de la Barreda",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
