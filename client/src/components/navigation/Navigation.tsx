@@ -1,4 +1,5 @@
 import React from 'react';
+import StyledNavigation from './StyledNavigation';
 import {IAppContext} from '../utilities/TranslationProvider';
 
 interface INavDispatchProps {
@@ -48,10 +49,10 @@ export class Navigation extends React.Component<INavProps, INavState> {
         const {shouldBlink, unreadMessages} = this.state;
 
         return appContext && (
-            <div>
+            <StyledNavigation>
                 <div>Chat</div>
                 <div>Settings</div>
-            </div>
+            </StyledNavigation>
         );
     }
 }
