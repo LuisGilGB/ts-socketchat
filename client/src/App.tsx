@@ -1,6 +1,6 @@
 import React from 'react';
 import AppRouter from './components/appRouter';
-import TranslationProvider from './utilities/translationProvider';
+import TranslationProvider from './utilities/TranslationProvider';
 
 const App: React.FC = () => {
   return (
